@@ -20,7 +20,7 @@ url = "https://www.linkedin.com/in/james-montesines-684507238/"
     name = "Blogs"
     url = "/blogs/"
 
-    [[main.main]]
+    [[menu.main]]
     identifier = "ctf"
     name = "CTFs"
     url = "/ctf/"

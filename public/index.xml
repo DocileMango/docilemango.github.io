@@ -5,98 +5,26 @@
     <link>http://localhost:1313/</link>
     <description>Recent content on DocileMango</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Wed, 05 Mar 2025 22:49:53 +0800</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>hack me</title>
-      <link>http://localhost:1313/ctf/hackac-2024/</link>
-      <pubDate>Wed, 05 Mar 2025 22:49:53 +0800</pubDate>
+      <title>About Me</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/ctf/hackac-2024/</guid>
+      <guid>http://localhost:1313/about/</guid>
       
-      <description>&lt;h1 id=&#34;forensics---hack-me-&#34;&gt;Forensics - Hack Me :)&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;Flag: ACSI{0mGGGG!!!!_H0w_d1d_y0u_H@cK_mY_w1fI????}&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;writeup&#34;&gt;Writeup&lt;/h2&gt;
-&lt;p&gt;This is the challenge:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;./images/image1.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;Let&amp;rsquo;s look at the file in Wireshark. This is what we see:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;./images/image2.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;Let us filter by EAPOL to see if we can find any handshakes.
-This is what we find:
-&lt;img src=&#34;./images/image3.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;From here, we are gonna try to crack the key using aircrack and the MAC Address of TP-Link:
-&lt;img src=&#34;./images/image4.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;Using rockyou.txt as a wordlist, this is the result of the brute force:
-&lt;img src=&#34;./images/image5.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;I am pinoy&lt;/p&gt;</description>
       
     </item>
     
     <item>
-      <title>pyre_1</title>
-      <link>http://localhost:1313/ctf/lag-and-crash-2024/pyre_1/</link>
-      <pubDate>Wed, 05 Mar 2025 22:49:53 +0800</pubDate>
+      <title>Capture the Flag writeups</title>
+      <link>http://localhost:1313/ctf/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/ctf/lag-and-crash-2024/pyre_1/</guid>
+      <guid>http://localhost:1313/ctf/</guid>
       
-      <description>&lt;h1 id=&#34;reverse-engineering---pyre_1&#34;&gt;Reverse Engineering - pyre_1&lt;/h1&gt;
-&lt;p&gt;Flag: LNC24{pYth0n_reVer5iNG_is_s0_mUCh_3as1er_tH4n_b1n4ri5s}&lt;/p&gt;
-&lt;h2 id=&#34;write-up&#34;&gt;Write Up&lt;/h2&gt;
-&lt;p&gt;This is the challenge:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;./Images/image1.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;So we download the python file and review the code.&lt;/p&gt;
-&lt;p&gt;We find that there are some strings thatt seems to be in base64 encoded:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;./Images/image2.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;After that, we look at the other functions:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;./Images/image3.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;What &amp;lsquo;pyre_1&amp;rsquo; basically does is that it takes in to parameters as bytes, and returns them as bytes. The function performs a simple XOR operation between &amp;lsquo;msg&amp;rsquo; and &amp;lsquo;key&amp;rsquo;.&lt;/p&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>Relic Race</title>
-      <link>http://localhost:1313/ctf/standcon-2023/osint-relicrace/</link>
-      <pubDate>Wed, 05 Mar 2025 22:49:53 +0800</pubDate>
-      
-      <guid>http://localhost:1313/ctf/standcon-2023/osint-relicrace/</guid>
-      
-      <description>&lt;h1 id=&#34;osint---relic-race&#34;&gt;OSINT - Relic Race&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;Flag: STANDCON{N4 2AW}&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;writeup&#34;&gt;Writeup&lt;/h2&gt;
-&lt;p&gt;Note: The flag will be in STANDCON{} format with a postal code as the answer&lt;/p&gt;
-&lt;p&gt;Looking at the image that was given:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;./images/relic-race_0.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;If we read the email seen in the image, it can tell us a few things:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;./images/relic-race_1.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;We are sent an airticket&lt;/li&gt;
-&lt;li&gt;There is an image of 2 landmarks, a gas station and a bank (target location)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Let&amp;rsquo;s look at the barcode that we can see in the image:&lt;/p&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>The Elusive Red Herring</title>
-      <link>http://localhost:1313/ctf/lag-and-crash-2024/the-elusive-red-herring/</link>
-      <pubDate>Wed, 05 Mar 2025 22:49:53 +0800</pubDate>
-      
-      <guid>http://localhost:1313/ctf/lag-and-crash-2024/the-elusive-red-herring/</guid>
-      
-      <description>&lt;h1 id=&#34;forensics---the-elusive-red-herring&#34;&gt;Forensics - The Elusive Red Herring&lt;/h1&gt;
-&lt;p&gt;Flag: LNC24{d0nT_f4LL_4_r3d_h3rR1nG5!}&lt;/p&gt;
-&lt;h2 id=&#34;write-up&#34;&gt;Write Up&lt;/h2&gt;
-&lt;p&gt;This is the challenge:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;./Images/image1.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;Installing the JPG file, this is what we see:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;./Images/image2.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;Doing &lt;code&gt;strings qrcode.jpg &amp;gt;&amp;gt; output.txt&lt;/code&gt; and opening VSCode, we decided to search for LNC24{ and find this:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;./Images/image3.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;We find just a bunch of fake flags.&lt;/p&gt;
-&lt;p&gt;Next, we decided to do binwalk on the image to see if there is anything we can extract, and we did!&lt;/p&gt;</description>
+      <description>&lt;p&gt;These are the write-ups I have done while doing CTFs&lt;/p&gt;</description>
       
     </item>
     
