@@ -1,20 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Ctfs on DocileMango</title>
+    <title>Capture The Flag Writeups on DocileMango</title>
     <link>http://localhost:1313/ctf/</link>
-    <description>Recent content in Ctfs on DocileMango</description>
+    <description>Recent content in Capture The Flag Writeups on DocileMango</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 05 Mar 2025 22:49:53 +0800</lastBuildDate><atom:link href="http://localhost:1313/ctf/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>hack me</title>
-      <link>http://localhost:1313/ctf/hackac-2024/</link>
+      <link>http://localhost:1313/ctf/hack-me/</link>
       <pubDate>Wed, 05 Mar 2025 22:49:53 +0800</pubDate>
       
-      <guid>http://localhost:1313/ctf/hackac-2024/</guid>
+      <guid>http://localhost:1313/ctf/hack-me/</guid>
       
-      <description>&lt;h1 id=&#34;forensics---hack-me-&#34;&gt;Forensics - Hack Me :)&lt;/h1&gt;
+      <description>&lt;h1 id=&#34;hackac-2024&#34;&gt;HACK@AC 2024&lt;/h1&gt;
+&lt;h2 id=&#34;forensics---hack-me-&#34;&gt;Forensics - Hack Me :)&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Flag: ACSI{0mGGGG!!!!_H0w_d1d_y0u_H@cK_mY_w1fI????}&lt;/li&gt;
 &lt;/ul&gt;
@@ -35,12 +36,13 @@ This is what we find:
     
     <item>
       <title>pyre_1</title>
-      <link>http://localhost:1313/ctf/lag-and-crash-2024/pyre_1/</link>
+      <link>http://localhost:1313/ctf/pyre-1/</link>
       <pubDate>Wed, 05 Mar 2025 22:49:53 +0800</pubDate>
       
-      <guid>http://localhost:1313/ctf/lag-and-crash-2024/pyre_1/</guid>
+      <guid>http://localhost:1313/ctf/pyre-1/</guid>
       
-      <description>&lt;h1 id=&#34;reverse-engineering---pyre_1&#34;&gt;Reverse Engineering - pyre_1&lt;/h1&gt;
+      <description>&lt;h1 id=&#34;lag-and-crash-2024&#34;&gt;Lag and Crash 2024&lt;/h1&gt;
+&lt;h2 id=&#34;reverse-engineering---pyre_1&#34;&gt;Reverse Engineering - pyre_1&lt;/h2&gt;
 &lt;p&gt;Flag: LNC24{pYth0n_reVer5iNG_is_s0_mUCh_3as1er_tH4n_b1n4ri5s}&lt;/p&gt;
 &lt;h2 id=&#34;write-up&#34;&gt;Write Up&lt;/h2&gt;
 &lt;p&gt;This is the challenge:&lt;/p&gt;
@@ -56,12 +58,13 @@ This is what we find:
     
     <item>
       <title>Relic Race</title>
-      <link>http://localhost:1313/ctf/standcon-2023/osint-relicrace/</link>
+      <link>http://localhost:1313/ctf/osint-RelicRace/</link>
       <pubDate>Wed, 05 Mar 2025 22:49:53 +0800</pubDate>
       
-      <guid>http://localhost:1313/ctf/standcon-2023/osint-relicrace/</guid>
+      <guid>http://localhost:1313/ctf/osint-RelicRace/</guid>
       
-      <description>&lt;h1 id=&#34;osint---relic-race&#34;&gt;OSINT - Relic Race&lt;/h1&gt;
+      <description>&lt;h1 id=&#34;standcon-2023&#34;&gt;STANDCON 2023&lt;/h1&gt;
+&lt;h2 id=&#34;osint---relic-race&#34;&gt;OSINT - Relic Race&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Flag: STANDCON{N4 2AW}&lt;/li&gt;
 &lt;/ul&gt;
@@ -81,12 +84,13 @@ This is what we find:
     
     <item>
       <title>The Elusive Red Herring</title>
-      <link>http://localhost:1313/ctf/lag-and-crash-2024/the-elusive-red-herring/</link>
+      <link>http://localhost:1313/the-elusive-red-herring/</link>
       <pubDate>Wed, 05 Mar 2025 22:49:53 +0800</pubDate>
       
-      <guid>http://localhost:1313/ctf/lag-and-crash-2024/the-elusive-red-herring/</guid>
+      <guid>http://localhost:1313/the-elusive-red-herring/</guid>
       
-      <description>&lt;h1 id=&#34;forensics---the-elusive-red-herring&#34;&gt;Forensics - The Elusive Red Herring&lt;/h1&gt;
+      <description>&lt;h1 id=&#34;lag-and-crash-2024&#34;&gt;Lag and Crash 2024&lt;/h1&gt;
+&lt;h2 id=&#34;forensics---the-elusive-red-herring&#34;&gt;Forensics - The Elusive Red Herring&lt;/h2&gt;
 &lt;p&gt;Flag: LNC24{d0nT_f4LL_4_r3d_h3rR1nG5!}&lt;/p&gt;
 &lt;h2 id=&#34;write-up&#34;&gt;Write Up&lt;/h2&gt;
 &lt;p&gt;This is the challenge:&lt;/p&gt;

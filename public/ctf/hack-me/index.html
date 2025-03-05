@@ -3,11 +3,11 @@
 <meta http-equiv="content-type" content="text/html">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title itemprop="name">Lag-and-Crash-2024 | DocileMango</title>
-<meta property="og:title" content="Lag-and-Crash-2024 | DocileMango" />
-<meta name="twitter:title" content="Lag-and-Crash-2024 | DocileMango" />
-<meta itemprop="name" content="Lag-and-Crash-2024 | DocileMango" />
-<meta name="application-name" content="Lag-and-Crash-2024 | DocileMango" />
+<title itemprop="name">hack me | DocileMango</title>
+<meta property="og:title" content="hack me | DocileMango" />
+<meta name="twitter:title" content="hack me | DocileMango" />
+<meta itemprop="name" content="hack me | DocileMango" />
+<meta name="application-name" content="hack me | DocileMango" />
 <meta property="og:site_name" content="" />
 
 <meta name="description" content="">
@@ -18,7 +18,7 @@
 <meta property="og:locale" content="en-us" />
 <meta name="language" content="en-us" />
 
-  <link rel="alternate" hreflang="en" href="http://localhost:1313/categories/lag-and-crash-2024/" title="" />
+  <link rel="alternate" hreflang="en" href="http://localhost:1313/ctf/hack-me/" title="" />
 
 
 
@@ -28,24 +28,31 @@
 <meta name="generator" content="Hugo 0.145.0">
 
     
-    <meta property="og:url" content="http://localhost:1313/categories/lag-and-crash-2024/">
+    <meta property="og:url" content="http://localhost:1313/ctf/hack-me/">
   <meta property="og:site_name" content="DocileMango">
-  <meta property="og:title" content="Lag-and-Crash-2024">
+  <meta property="og:title" content="hack me">
+  <meta property="og:description" content="HACK@AC 2024 Forensics - Hack Me :) Flag: ACSI{0mGGGG!!!!_H0w_d1d_y0u_H@cK_mY_w1fI????} Writeup This is the challenge:
+Let’s look at the file in Wireshark. This is what we see:
+Let us filter by EAPOL to see if we can find any handshakes. This is what we find: From here, we are gonna try to crack the key using aircrack and the MAC Address of TP-Link: Using rockyou.txt as a wordlist, this is the result of the brute force:">
   <meta property="og:locale" content="en_us">
-  <meta property="og:type" content="website">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="ctf">
+    <meta property="article:published_time" content="2025-03-05T22:49:53+08:00">
+    <meta property="article:modified_time" content="2025-03-05T22:49:53+08:00">
 
 
     
     
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Lag-and-Crash-2024">
+  <meta name="twitter:title" content="hack me">
+  <meta name="twitter:description" content="HACK@AC 2024 Forensics - Hack Me :) Flag: ACSI{0mGGGG!!!!_H0w_d1d_y0u_H@cK_mY_w1fI????} Writeup This is the challenge:
+Let’s look at the file in Wireshark. This is what we see:
+Let us filter by EAPOL to see if we can find any handshakes. This is what we find: From here, we are gonna try to crack the key using aircrack and the MAC Address of TP-Link: Using rockyou.txt as a wordlist, this is the result of the brute force:">
 
 
     
 
-    <link rel="canonical" href="http://localhost:1313/categories/lag-and-crash-2024/">
-    <link href="/categories/lag-and-crash-2024/index.xml" rel="alternate" type="application/rss+xml" title="DocileMango">
-    <link href="/categories/lag-and-crash-2024/index.xml" rel="feed" type="application/rss+xml" title="DocileMango">
+    <link rel="canonical" href="http://localhost:1313/ctf/hack-me/">
     <link href="/style.min.2d921c18cf1ec555ffc03d59a8adc211c402c68c930c27d6a0c306ab175a8d09.css" rel="stylesheet">
     <link href="/code-highlight.min.706d31975fec544a864cb7f0d847a73ea55ca1df91bf495fd12a177138d807cf.css" rel="stylesheet">
 
@@ -140,40 +147,51 @@ stroke-linejoin="round" class="feather feather-home">
         </div>
     </nav>
 </div>
-<div class="wrapper list-page">
-    <header class="header">
-        <h1 class="header-title center">Lag-and-Crash-2024</h1>
-    </header>
+
+<div class="wrapper post">
     <main class="page-content" aria-label="Content">
-        
-        
-        <h2 class="post-year">0001</h2>
+        <article>
+            <header class="header">
+                <h1 class="header-title">hack me</h1>
+                
+                
+                
+                <div class="post-meta">
+                    <time datetime="2025-03-05T22:49:53&#43;08:00" itemprop="datePublished"> Mar 5, 2025 </time>
+                </div>
+                
+            </header>
+            
+            <div class="page-content">
+                <h1 id="hackac-2024">HACK@AC 2024</h1>
+<h2 id="forensics---hack-me-">Forensics - Hack Me :)</h2>
+<ul>
+<li>Flag: ACSI{0mGGGG!!!!_H0w_d1d_y0u_H@cK_mY_w1fI????}</li>
+</ul>
+<h2 id="writeup">Writeup</h2>
+<p>This is the challenge:</p>
+<p><img src="./images/image1.png" alt=""></p>
+<p>Let&rsquo;s look at the file in Wireshark. This is what we see:</p>
+<p><img src="./images/image2.png" alt=""></p>
+<p>Let us filter by EAPOL to see if we can find any handshakes.
+This is what we find:
+<img src="./images/image3.png" alt=""></p>
+<p>From here, we are gonna try to crack the key using aircrack and the MAC Address of TP-Link:
+<img src="./images/image4.png" alt=""></p>
+<p>Using rockyou.txt as a wordlist, this is the result of the brute force:
+<img src="./images/image5.png" alt=""></p>
+<p>Using this key, we right-click on any packet with 802.11 protocol, and we go to Protocol Preferences -&gt; IEEE 802.11 Wireless LAN -&gt; Decryption keys and put this key:
+<img src="./images/image6.png" alt=""></p>
+<p>From here, I decided to filter by tcp and this is what we find:
+<img src="./images/image7.png" alt=""></p>
+<p>We see that there is an HTTP GET for flag.txt, I will follow this HTTP stream and this is what we get:
+<img src="./images/image8.png" alt=""></p>
+<p>And there you have it, we got the flag: ACSI{0mGGGG!!!!_H0w_d1d_y0u_H@cK_mY_w1fI????}</p>
 
-        
-
-        
-
-        <article class="post-item">
-    <h4 class="post-item-title">
-        <a href="/ctf/lag-and-crash-2024/pyre_1/readme/">pyre_1</a>
-    </h4>
-    
-    
-    
-    
-    <time class="post-item-meta" datetime="0001-01-01T00:00:00Z">
-        1 Jan 0001
-        
-    </time>
-</article>
-
-
-         
-
-         
-
-    </main>
-</div><footer class="footer">
+            </div>
+        </article></main>
+</div>
+<footer class="footer">
     <span class="footer_item"> </span>
     &nbsp;
 

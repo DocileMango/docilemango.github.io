@@ -2,9 +2,12 @@
 date = '2025-03-05T22:49:53+08:00'
 draft = false
 title = 'The Elusive Red Herring'
+url = 'the-elusive-red-herring'
 +++
 
-# Forensics - The Elusive Red Herring
+# Lag and Crash 2024
+
+## Forensics - The Elusive Red Herring
 Flag: LNC24{d0nT_f4LL_4_r3d_h3rR1nG5!}
 
 ## Write Up

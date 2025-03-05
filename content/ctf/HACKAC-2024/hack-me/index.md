@@ -2,9 +2,12 @@
 date = '2025-03-05T22:49:53+08:00'
 draft = false
 title = 'hack me'
+url = 'ctf/hack-me'
 +++
 
-# Forensics - Hack Me :)
+# HACK@AC 2024
+
+## Forensics - Hack Me :)
 - Flag: ACSI{0mGGGG!!!!_H0w_d1d_y0u_H@cK_mY_w1fI????}
 
 ## Writeup

@@ -8,10 +8,10 @@
     <language>en-us</language><atom:link href="http://localhost:1313/categories/lag-and-crash-2024/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>pyre_1</title>
-      <link>http://localhost:1313/ctf/lag-and-crash-2024/pyre_1/</link>
+      <link>http://localhost:1313/ctf/lag-and-crash-2024/pyre_1/readme/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/ctf/lag-and-crash-2024/pyre_1/</guid>
+      <guid>http://localhost:1313/ctf/lag-and-crash-2024/pyre_1/readme/</guid>
       
       <description>&lt;h1 id=&#34;reverse-engineering---pyre_1&#34;&gt;Reverse Engineering - pyre_1&lt;/h1&gt;
 &lt;p&gt;Flag: LNC24{pYth0n_reVer5iNG_is_s0_mUCh_3as1er_tH4n_b1n4ri5s}&lt;/p&gt;

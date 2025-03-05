@@ -3,11 +3,11 @@
 <meta http-equiv="content-type" content="text/html">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title itemprop="name">Lag-and-Crash-2024 | DocileMango</title>
-<meta property="og:title" content="Lag-and-Crash-2024 | DocileMango" />
-<meta name="twitter:title" content="Lag-and-Crash-2024 | DocileMango" />
-<meta itemprop="name" content="Lag-and-Crash-2024 | DocileMango" />
-<meta name="application-name" content="Lag-and-Crash-2024 | DocileMango" />
+<title itemprop="name">pyre_1 | DocileMango</title>
+<meta property="og:title" content="pyre_1 | DocileMango" />
+<meta name="twitter:title" content="pyre_1 | DocileMango" />
+<meta itemprop="name" content="pyre_1 | DocileMango" />
+<meta name="application-name" content="pyre_1 | DocileMango" />
 <meta property="og:site_name" content="" />
 
 <meta name="description" content="">
@@ -18,7 +18,7 @@
 <meta property="og:locale" content="en-us" />
 <meta name="language" content="en-us" />
 
-  <link rel="alternate" hreflang="en" href="http://localhost:1313/categories/lag-and-crash-2024/" title="" />
+  <link rel="alternate" hreflang="en" href="http://localhost:1313/ctf/lag-and-crash-2024/pyre_1/readme/" title="" />
 
 
 
@@ -28,24 +28,35 @@
 <meta name="generator" content="Hugo 0.145.0">
 
     
-    <meta property="og:url" content="http://localhost:1313/categories/lag-and-crash-2024/">
+    <meta property="og:url" content="http://localhost:1313/ctf/lag-and-crash-2024/pyre_1/readme/">
   <meta property="og:site_name" content="DocileMango">
-  <meta property="og:title" content="Lag-and-Crash-2024">
+  <meta property="og:title" content="pyre_1">
+  <meta property="og:description" content="Reverse Engineering - pyre_1 Flag: LNC24{pYth0n_reVer5iNG_is_s0_mUCh_3as1er_tH4n_b1n4ri5s}
+Write Up This is the challenge:
+So we download the python file and review the code.
+We find that there are some strings thatt seems to be in base64 encoded:
+After that, we look at the other functions:
+What ‘pyre_1’ basically does is that it takes in to parameters as bytes, and returns them as bytes. The function performs a simple XOR operation between ‘msg’ and ‘key’.">
   <meta property="og:locale" content="en_us">
-  <meta property="og:type" content="website">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="ctf">
 
 
     
     
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Lag-and-Crash-2024">
+  <meta name="twitter:title" content="pyre_1">
+  <meta name="twitter:description" content="Reverse Engineering - pyre_1 Flag: LNC24{pYth0n_reVer5iNG_is_s0_mUCh_3as1er_tH4n_b1n4ri5s}
+Write Up This is the challenge:
+So we download the python file and review the code.
+We find that there are some strings thatt seems to be in base64 encoded:
+After that, we look at the other functions:
+What ‘pyre_1’ basically does is that it takes in to parameters as bytes, and returns them as bytes. The function performs a simple XOR operation between ‘msg’ and ‘key’.">
 
 
     
 
-    <link rel="canonical" href="http://localhost:1313/categories/lag-and-crash-2024/">
-    <link href="/categories/lag-and-crash-2024/index.xml" rel="alternate" type="application/rss+xml" title="DocileMango">
-    <link href="/categories/lag-and-crash-2024/index.xml" rel="feed" type="application/rss+xml" title="DocileMango">
+    <link rel="canonical" href="http://localhost:1313/ctf/lag-and-crash-2024/pyre_1/readme/">
     <link href="/style.min.2d921c18cf1ec555ffc03d59a8adc211c402c68c930c27d6a0c306ab175a8d09.css" rel="stylesheet">
     <link href="/code-highlight.min.706d31975fec544a864cb7f0d847a73ea55ca1df91bf495fd12a177138d807cf.css" rel="stylesheet">
 
@@ -140,40 +151,42 @@ stroke-linejoin="round" class="feather feather-home">
         </div>
     </nav>
 </div>
-<div class="wrapper list-page">
-    <header class="header">
-        <h1 class="header-title center">Lag-and-Crash-2024</h1>
-    </header>
+
+<div class="wrapper post">
     <main class="page-content" aria-label="Content">
-        
-        
-        <h2 class="post-year">0001</h2>
+        <article>
+            <header class="header">
+                <h1 class="header-title">pyre_1</h1>
+                
+                
+            </header>
+            
+            <div class="page-content">
+                <h1 id="reverse-engineering---pyre_1">Reverse Engineering - pyre_1</h1>
+<p>Flag: LNC24{pYth0n_reVer5iNG_is_s0_mUCh_3as1er_tH4n_b1n4ri5s}</p>
+<h2 id="write-up">Write Up</h2>
+<p>This is the challenge:</p>
+<p><img src="./Images/image1.png" alt=""></p>
+<p>So we download the python file and review the code.</p>
+<p>We find that there are some strings thatt seems to be in base64 encoded:</p>
+<p><img src="./Images/image2.png" alt=""></p>
+<p>After that, we look at the other functions:</p>
+<p><img src="./Images/image3.png" alt=""></p>
+<p>What &lsquo;pyre_1&rsquo; basically does is that it takes in to parameters as bytes, and returns them as bytes. The function performs a simple XOR operation between &lsquo;msg&rsquo; and &lsquo;key&rsquo;.</p>
+<p>As for the &rsquo;test_flag&rsquo; function, it takes in to parameters, &lsquo;flag&rsquo; as bytes and &rsquo;test_str&rsquo; as a string. What it does is that is basically splits the &rsquo;test_str&rsquo; into &lsquo;key&rsquo; and &lsquo;ct&rsquo; and decodes them using &lsquo;urlsafe_b64decode&rsquo;. It then compares it with the results of &lsquo;pyre_1&rsquo; function with the decoded &lsquo;ct&rsquo;.</p>
+<p>The main function is just to run the entire code:</p>
+<p><img src="./Images/image4.png" alt=""></p>
+<p>So in order to solve this challenge, I modified the main function:</p>
+<p><img src="./Images/image5.png" alt=""></p>
+<p>All I did was simply take the function of &rsquo;test_flag&rsquo;, and placed it inside of the main function, and added a for loop to decode each string in &lsquo;strings&rsquo;, and then print out the flag.</p>
+<p>This is the output we get running the program:</p>
+<p><img src="./Images/image6.png" alt=""></p>
+<p>And we got the flag!</p>
 
-        
-
-        
-
-        <article class="post-item">
-    <h4 class="post-item-title">
-        <a href="/ctf/lag-and-crash-2024/pyre_1/readme/">pyre_1</a>
-    </h4>
-    
-    
-    
-    
-    <time class="post-item-meta" datetime="0001-01-01T00:00:00Z">
-        1 Jan 0001
-        
-    </time>
-</article>
-
-
-         
-
-         
-
-    </main>
-</div><footer class="footer">
+            </div>
+        </article></main>
+</div>
+<footer class="footer">
     <span class="footer_item"> </span>
     &nbsp;
 

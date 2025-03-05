@@ -3,11 +3,11 @@
 <meta http-equiv="content-type" content="text/html">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title itemprop="name">Lag-and-Crash-2024 | DocileMango</title>
-<meta property="og:title" content="Lag-and-Crash-2024 | DocileMango" />
-<meta name="twitter:title" content="Lag-and-Crash-2024 | DocileMango" />
-<meta itemprop="name" content="Lag-and-Crash-2024 | DocileMango" />
-<meta name="application-name" content="Lag-and-Crash-2024 | DocileMango" />
+<title itemprop="name">The Elusive Red Herring | DocileMango</title>
+<meta property="og:title" content="The Elusive Red Herring | DocileMango" />
+<meta name="twitter:title" content="The Elusive Red Herring | DocileMango" />
+<meta itemprop="name" content="The Elusive Red Herring | DocileMango" />
+<meta name="application-name" content="The Elusive Red Herring | DocileMango" />
 <meta property="og:site_name" content="" />
 
 <meta name="description" content="">
@@ -18,7 +18,7 @@
 <meta property="og:locale" content="en-us" />
 <meta name="language" content="en-us" />
 
-  <link rel="alternate" hreflang="en" href="http://localhost:1313/categories/lag-and-crash-2024/" title="" />
+  <link rel="alternate" hreflang="en" href="http://localhost:1313/the-elusive-red-herring/" title="" />
 
 
 
@@ -28,24 +28,37 @@
 <meta name="generator" content="Hugo 0.145.0">
 
     
-    <meta property="og:url" content="http://localhost:1313/categories/lag-and-crash-2024/">
+    <meta property="og:url" content="http://localhost:1313/the-elusive-red-herring/">
   <meta property="og:site_name" content="DocileMango">
-  <meta property="og:title" content="Lag-and-Crash-2024">
+  <meta property="og:title" content="The Elusive Red Herring">
+  <meta property="og:description" content="Lag and Crash 2024 Forensics - The Elusive Red Herring Flag: LNC24{d0nT_f4LL_4_r3d_h3rR1nG5!}
+Write Up This is the challenge:
+Installing the JPG file, this is what we see:
+Doing strings qrcode.jpg &gt;&gt; output.txt and opening VSCode, we decided to search for LNC24{ and find this:
+We find just a bunch of fake flags.
+Next, we decided to do binwalk on the image to see if there is anything we can extract, and we did!">
   <meta property="og:locale" content="en_us">
-  <meta property="og:type" content="website">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="ctf">
+    <meta property="article:published_time" content="2025-03-05T22:49:53+08:00">
+    <meta property="article:modified_time" content="2025-03-05T22:49:53+08:00">
 
 
     
     
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Lag-and-Crash-2024">
+  <meta name="twitter:title" content="The Elusive Red Herring">
+  <meta name="twitter:description" content="Lag and Crash 2024 Forensics - The Elusive Red Herring Flag: LNC24{d0nT_f4LL_4_r3d_h3rR1nG5!}
+Write Up This is the challenge:
+Installing the JPG file, this is what we see:
+Doing strings qrcode.jpg &gt;&gt; output.txt and opening VSCode, we decided to search for LNC24{ and find this:
+We find just a bunch of fake flags.
+Next, we decided to do binwalk on the image to see if there is anything we can extract, and we did!">
 
 
     
 
-    <link rel="canonical" href="http://localhost:1313/categories/lag-and-crash-2024/">
-    <link href="/categories/lag-and-crash-2024/index.xml" rel="alternate" type="application/rss+xml" title="DocileMango">
-    <link href="/categories/lag-and-crash-2024/index.xml" rel="feed" type="application/rss+xml" title="DocileMango">
+    <link rel="canonical" href="http://localhost:1313/the-elusive-red-herring/">
     <link href="/style.min.2d921c18cf1ec555ffc03d59a8adc211c402c68c930c27d6a0c306ab175a8d09.css" rel="stylesheet">
     <link href="/code-highlight.min.706d31975fec544a864cb7f0d847a73ea55ca1df91bf495fd12a177138d807cf.css" rel="stylesheet">
 
@@ -140,40 +153,49 @@ stroke-linejoin="round" class="feather feather-home">
         </div>
     </nav>
 </div>
-<div class="wrapper list-page">
-    <header class="header">
-        <h1 class="header-title center">Lag-and-Crash-2024</h1>
-    </header>
+
+<div class="wrapper post">
     <main class="page-content" aria-label="Content">
-        
-        
-        <h2 class="post-year">0001</h2>
+        <article>
+            <header class="header">
+                <h1 class="header-title">The Elusive Red Herring</h1>
+                
+                
+                
+                <div class="post-meta">
+                    <time datetime="2025-03-05T22:49:53&#43;08:00" itemprop="datePublished"> Mar 5, 2025 </time>
+                </div>
+                
+            </header>
+            
+            <div class="page-content">
+                <h1 id="lag-and-crash-2024">Lag and Crash 2024</h1>
+<h2 id="forensics---the-elusive-red-herring">Forensics - The Elusive Red Herring</h2>
+<p>Flag: LNC24{d0nT_f4LL_4_r3d_h3rR1nG5!}</p>
+<h2 id="write-up">Write Up</h2>
+<p>This is the challenge:</p>
+<p><img src="./Images/image1.png" alt=""></p>
+<p>Installing the JPG file, this is what we see:</p>
+<p><img src="./Images/image2.png" alt=""></p>
+<p>Doing <code>strings qrcode.jpg &gt;&gt; output.txt</code> and opening VSCode, we decided to search for LNC24{ and find this:</p>
+<p><img src="./Images/image3.png" alt=""></p>
+<p>We find just a bunch of fake flags.</p>
+<p>Next, we decided to do binwalk on the image to see if there is anything we can extract, and we did!</p>
+<p><img src="./Images/image4.png" alt=""></p>
+<p>We looked inside what we extracted and found 2 zip files and 1 directory:</p>
+<p><img src="./Images/image5.png" alt=""></p>
+<p>This is inside the &lsquo;red_herrings&rsquo; directory:</p>
+<p><img src="./Images/image6.png" alt=""></p>
+<p>Inside 1, 2, 3 and 5 are just images, but within 4 was a zip file that we decided to extract.</p>
+<p>After extracting that file, a bunch of &lsquo;flag.txt&rsquo; files were extracted.</p>
+<p>So we decided to use this grep command: <code>grep -r -v &quot;LNC24{A_f4k3_fL4g_&quot;</code></p>
+<p><img src="./Images/image7.png" alt=""></p>
+<p>And we got the flag!</p>
 
-        
-
-        
-
-        <article class="post-item">
-    <h4 class="post-item-title">
-        <a href="/ctf/lag-and-crash-2024/pyre_1/readme/">pyre_1</a>
-    </h4>
-    
-    
-    
-    
-    <time class="post-item-meta" datetime="0001-01-01T00:00:00Z">
-        1 Jan 0001
-        
-    </time>
-</article>
-
-
-         
-
-         
-
-    </main>
-</div><footer class="footer">
+            </div>
+        </article></main>
+</div>
+<footer class="footer">
     <span class="footer_item"> </span>
     &nbsp;
 

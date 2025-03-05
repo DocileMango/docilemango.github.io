@@ -2,9 +2,12 @@
 date = '2025-03-05T22:49:53+08:00'
 draft = false
 title = 'pyre_1'
+url = 'ctf/pyre-1'
 +++
 
-# Reverse Engineering - pyre_1
+# Lag and Crash 2024
+
+## Reverse Engineering - pyre_1
 Flag: LNC24{pYth0n_reVer5iNG_is_s0_mUCh_3as1er_tH4n_b1n4ri5s}
 
 ## Write Up
