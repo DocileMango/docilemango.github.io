@@ -13,6 +13,8 @@ url = "https://www.linkedin.com/in/james-montesines-684507238/"
 
 [params]
     goToTop = true
+    profileImage = "img/mango.png"
+    customCSS = ["css/custom.css"]
 
 [menu]
     [[menu.main]]
