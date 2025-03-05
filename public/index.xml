@@ -31,7 +31,13 @@
       
       <guid>http://localhost:1313/ctf/</guid>
       
-      <description>&lt;p&gt;These are the write-ups I have done while doing CTFs.&lt;/p&gt;</description>
+      <description>&lt;p&gt;These are the write-ups I have done while doing CTFs.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;./Lag-and-Crash-2024/The-Elusive-Red-Herring/&#34;&gt;The Elusive Red Herring&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;./Lag-and-Crash-2024/pyre_1/&#34;&gt;pyre_1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;./HACK@AC-2024/hack-me/&#34;&gt;Hack Me&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;./STANDCON-2023/osint-RelicRace/&#34;&gt;Relic Race&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
       
     </item>
     
