@@ -13,18 +13,25 @@
       
       <guid>http://localhost:1313/about/</guid>
       
-      <description>&lt;p&gt;I am pinoy&lt;/p&gt;</description>
+      <description>&lt;p&gt;Hi! I&amp;rsquo;m James.&lt;/p&gt;
+&lt;p&gt;I am currently pursuing Cybersecurity &amp;amp; Digital Forensics at Temasek Polytechnic. My diploma includes in-depth studies in penetration testing, intrusion prevention, network security, incident respionse and risk management.&lt;/p&gt;
+&lt;p&gt;I go on Hack The Box Academy to further my learning and I also participate in CTFs during holidays.&lt;/p&gt;
+&lt;p&gt;My current interests:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Offensive Security&lt;/li&gt;
+&lt;li&gt;Red Team&lt;/li&gt;
+&lt;/ul&gt;</description>
       
     </item>
     
     <item>
-      <title>Capture the Flag writeups</title>
+      <title>Capture The Flag Writeups</title>
       <link>http://localhost:1313/ctf/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/ctf/</guid>
       
-      <description>&lt;p&gt;These are the write-ups I have done while doing CTFs&lt;/p&gt;</description>
+      <description>&lt;p&gt;These are the write-ups I have done while doing CTFs.&lt;/p&gt;</description>
       
     </item>
     

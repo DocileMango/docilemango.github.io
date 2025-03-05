@@ -1,6 +1,7 @@
 +++
-draft = true
-title = 'Capture the Flag writeups'
+draft = false
+title = 'Capture The Flag Writeups'
+layout = 'list'
 +++
 
-These are the write-ups I have done while doing CTFs
+These are the write-ups I have done while doing CTFs.

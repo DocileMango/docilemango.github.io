@@ -2,6 +2,13 @@
     <h1>{{ .Title }}</h1>
     <p>{{ .Description }}</p>
 
+    {{ range .Pages }}
+    <article>
+        <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+        <p><small>Published on {{ .Date.Format "January 2, 2006" }}</small></p>
+    </article>
+    {{ end }}
+    
     {{ range .Sections }}
         <h2>{{ .Title }}</h2>
         <ul>
