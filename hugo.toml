@@ -10,3 +10,27 @@ url = "https://github.com/DocileMango"
 [[params.socialIcons]]
 name  = "linkedin"
 url = "https://www.linkedin.com/in/james-montesines-684507238/"
+
+[params]
+    goToTop = true
+
+[menu]
+    [[menu.main]]
+    identifier = "blogs"
+    name = "Blogs"
+    url = "/blogs/"
+
+    [[main.main]]
+    identifier = "ctf"
+    name = "CTFs"
+    url = "/ctf/"
+
+    [[menu.main]]
+    identifier = "projects"
+    name = "Projects"
+    url = "/projects"
+
+    [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"

@@ -2,9 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>http://localhost:1313/ctf/</loc>
+    <lastmod>2025-03-05T22:49:53+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
+    <lastmod>2025-03-05T22:49:53+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/ctf/hackac-2024/</loc>
+    <lastmod>2025-03-05T22:49:53+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/ctf/lag-and-crash-2024/pyre_1/</loc>
+    <lastmod>2025-03-05T22:49:53+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/ctf/standcon-2023/osint-relicrace/</loc>
+    <lastmod>2025-03-05T22:49:53+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/ctf/lag-and-crash-2024/the-elusive-red-herring/</loc>
+    <lastmod>2025-03-05T22:49:53+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
   </url>
