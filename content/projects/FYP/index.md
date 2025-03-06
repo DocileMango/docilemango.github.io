@@ -2,7 +2,7 @@
 date = '2024-09-03T22:49:53+08:00'
 draft = false
 title = 'Final Year Project at Temasek Polytechnic'
-url = 'projects/fyps'
+url = 'projects/fyp'
 +++
 
 ## Overview
