@@ -12,7 +12,7 @@ Youth Cyber Exploration Programme (YCEP) was a programme started by CSA and host
 
 As a group, we organised what we would want to be taught for YCEP 2025 and how the curriculum would play out during the 3 day bootcamp at TP.
 
-My part in the project is to create learning materials and CTF challenges for participants for reconnaissance (information gathering and OSINT) and Incident response. I also prepared and setup the Kali virtual environment for participants to use.
+My part in the project is to create learning materials and CTF challenges for participants for reconnaissance (information gathering and OSINT) and Incident response. I also prepared and setup the Kali virtual environment for participants to use, and 4 simple reverse engineering challenges.
 
 ## The Project
 
