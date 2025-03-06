@@ -1,5 +1,5 @@
 +++
-date = '2025-03-05T22:49:53+08:00'
+date = '2023-12-13T22:49:53+08:00'
 draft = false
 title = 'Relic Race'
 url = 'ctf/osint-RelicRace'
