@@ -14,6 +14,9 @@ As a group, we organised what we would want to be taught for YCEP 2025 and how t
 
 My part in the project is to create learning materials and CTF challenges for participants for reconnaissance (information gathering and OSINT) and Incident response. I also prepared and setup the Kali virtual environment for participants to use, and 4 simple reverse engineering challenges.
 
+*Architecture of the Project*
+![](./images/architecture.png)
+
 ## The Project
 
 Click [here](https://youtu.be/spiA26b6Ff0) for a demo of the Kali VM that I setup and the lab activity for reconnaissance that I designed.
