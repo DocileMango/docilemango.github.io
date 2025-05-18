@@ -1,3 +1,10 @@
++++
+date = '2025-05-15T22:49:53+08:00'
+draft = false
+title = 'RISCy Business'
+url = 'riscy-business'
++++
+
 # Misc - RISCy Business
 - Flag: dam{Fr33R705_15_C001_on_the_esp32c6}
 
